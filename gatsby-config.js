@@ -54,8 +54,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`, 
-    `gatsby-plugin-sharp`, 
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',
