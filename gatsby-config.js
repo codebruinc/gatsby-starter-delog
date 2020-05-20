@@ -14,11 +14,6 @@ module.exports = {
         name: `markdown-pages`,
         path: `${__dirname}/_data`,
       },
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-      
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -65,7 +60,5 @@ module.exports = {
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
-    `gatsby-transformer-sharp`, 
-    `gatsby-plugin-sharp`,
   ],
 }
