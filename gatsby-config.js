@@ -53,6 +53,12 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 1500
+      }
+    },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
@@ -61,5 +67,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     'gatsby-plugin-page-transitions',
+    `gatsby-plugin-transition-link`,
   ],
 }
