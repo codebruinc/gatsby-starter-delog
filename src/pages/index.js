@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 const IndexPage = ({
   data: {
@@ -25,7 +26,9 @@ const IndexPage = ({
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
-        {Posts}
+        <PageTransition>
+          {Posts}
+        </PageTransition>
       </div>
     </Layout>
   )
